@@ -1,0 +1,237 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "uiuxfolio",
+  "version": "1.0.0",
+  "gitUrl": "https://github.com/weelume/uiuxfolio-template",
+  "name": "UIUXfolio · 交互设计师作品集",
+  "localizedNames": {
+    "en": "UIUXfolio · UI/UX designer portfolio"
+  },
+  "sceneId": "brand-portfolio",
+  "listed": false,
+  "tags": [
+    "设计师作品集",
+    "网格留白",
+    "粉色强调",
+    "中英文",
+    "PC / iPad / H5"
+  ],
+  "summary": "独立设计师作品集，六个案例、设计方法、技能、经历和本地演示表单。",
+  "accentColor": "#d92159",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "UIUXfolio desktop home",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-works.webp",
+      "alt": "UIUXfolio desktop works",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-case.webp",
+      "alt": "UIUXfolio desktop case",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "voos"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "UIUXfolio desktop contact",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "UIUXfolio tablet home",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-works.webp",
+      "alt": "UIUXfolio tablet works",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-case.webp",
+      "alt": "UIUXfolio tablet case",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "voos"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "UIUXfolio tablet contact",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "UIUXfolio mobile home",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-works.webp",
+      "alt": "UIUXfolio mobile works",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-case.webp",
+      "alt": "UIUXfolio mobile case",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "voos"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "UIUXfolio mobile contact",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "设计师作品集",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "voos",
+          "title": "Voo’s Cinema",
+          "localizedTitles": {
+            "en": "Voo’s Cinema"
+          }
+        },
+        {
+          "slug": "credroad",
+          "title": "Credroad",
+          "localizedTitles": {
+            "en": "Credroad"
+          }
+        },
+        {
+          "slug": "suplan",
+          "title": "Suplan",
+          "localizedTitles": {
+            "en": "Suplan"
+          }
+        },
+        {
+          "slug": "placever",
+          "title": "Placever",
+          "localizedTitles": {
+            "en": "Placever"
+          }
+        },
+        {
+          "slug": "nad",
+          "title": "New American Diagnostics",
+          "localizedTitles": {
+            "en": "New American Diagnostics"
+          }
+        },
+        {
+          "slug": "nava",
+          "title": "Nava",
+          "localizedTitles": {
+            "en": "Nava"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "resume",
+          "title": "履历",
+          "localizedTitles": {
+            "en": "Resume"
+          }
+        },
+        {
+          "slug": "privacy-policy",
+          "title": "隐私说明",
+          "localizedTitles": {
+            "en": "Privacy notice"
+          }
+        },
+        {
+          "slug": "terms-of-service",
+          "title": "使用说明",
+          "localizedTitles": {
+            "en": "Terms"
+          }
+        },
+        {
+          "slug": "404",
+          "title": "页面未找到",
+          "localizedTitles": {
+            "en": "Page not found"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考资产尚未取得再分发许可，仅供本地复刻评审。",
+    "redistributionAllowed": false
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "capturedAt": "2026-10-20T03:55:45.660Z",
+  "status": "passed",
+  "shots": [
+    {
+      "filename": "desktop-home.webp",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "e371980142bff4bade701437bd10dcceec317152cc46cce3f57da10e8a38ee84",
+      "bytes": 35904,
+      "client": 1440,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "desktop-works.webp",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "5604aed86d5ef82b1bbb70922dad690dc17970ab77ffd06e3147a2faaeb63c0a",
+      "bytes": 72036,
+      "client": 1440,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "desktop-contact.webp",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "e90e23ed03988a623901f1caea95965e9f227f61673a3750bad40552b4c02f0d",
+      "bytes": 32268,
+      "client": 1440,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "desktop-case.webp",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "f7e406b8c4970beb8fc7e288febe780a58131e5051a34e4605cd3b9c96579fca",
+      "bytes": 66098,
+      "client": 1440,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "tablet-home.webp",
+      "width": 834,
+      "height": 1180,
+      "sha256": "64421f1f3ffa30f8add3b21eec7301249d3e30362a8d91c2ca8d67778422d536",
+      "bytes": 44864,
+      "client": 834,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "tablet-works.webp",
+      "width": 834,
+      "height": 1180,
+      "sha256": "2736630fffda5cd8060eb24bfc7c8698726f37686e5a5be1575e48f4f2d78ef8",
+      "bytes": 60420,
+      "client": 834,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "tablet-contact.webp",
+      "width": 834,
+      "height": 1180,
+      "sha256": "d12d6e3edea258ae914f60323376caabcb4403629598cab7dddf28c8854d277b",
+      "bytes": 40698,
+      "client": 834,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "tablet-case.webp",
+      "width": 834,
+      "height": 1180,
+      "sha256": "927055e6845efdd712221579e5b859d8075b7c984cb50df34a05ca8fb55ab7f8",
+      "bytes": 52602,
+      "client": 834,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "mobile-home.webp",
+      "width": 390,
+      "height": 844,
+      "sha256": "caac61672932aadc11e88c809651a1c2c8de23f369475d3dc716f22fc37483d5",
+      "bytes": 20948,
+      "client": 390,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "mobile-works.webp",
+      "width": 390,
+      "height": 844,
+      "sha256": "46ab91de2d9d7f9cac8f018a4ac2e7afb6a1c0092a86426f1ccd2d75971a3d4b",
+      "bytes": 26442,
+      "client": 390,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "mobile-contact.webp",
+      "width": 390,
+      "height": 844,
+      "sha256": "b46d752f7f4cb0d32f85bbc6f3b9b29df60fc06796cc177664c36061d1e69ad8",
+      "bytes": 19988,
+      "client": 390,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    },
+    {
+      "filename": "mobile-case.webp",
+      "width": 390,
+      "height": 844,
+      "sha256": "619f3b96cae3e0a9d478313894a927934c30910e997d33322cb5839e531186a4",
+      "bytes": 28592,
+      "client": 390,
+      "native": "none",
+      "rail": "0",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

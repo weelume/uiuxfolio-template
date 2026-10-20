@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-20T03:28:55.172Z",
+  "sourceCommit": null,
+  "workingTreeDigest": "6c22007ce3489043e27fcac2baeeb31250514f8b58418fa90a0b057f747fb974",
+  "digestAlgorithm": "路径排序的 [相对路径,SHA256] 数组再计算 SHA256；包含当前未提交文件，排除 .gitignore 与 .tpl/reports；不冒充 Git 索引绑定的协议验收报告。",
+  "files": 431,
+  "applicationChecks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "contracts": "3 passed",
+    "build": "passed",
+    "browser": {
+      "status": "passed",
+      "combinations": 96,
+      "interactions": [
+        "移动菜单展开和导航后收起",
+        "客户端语言切换保留查询和锚点、无整页刷新",
+        "案例客户端跳转和原页切换语言",
+        "作品画廊打开、切换与 Escape 关闭",
+        "评价轮播切换",
+        "表单必填和格式校验、有明确未发送提示且无写入请求",
+        "邮箱复制成功反馈"
+      ]
+    }
+  },
+  "limitations": [
+    "真实 Git 地址未配置；完整协议检查因 gitUrl=null 不通过。",
+    "参考素材再分发授权待确认，保持 listed=false。",
+    "案例原始图内英文示意保留。",
+    "未提交、推送或部署。"
+  ]
+}

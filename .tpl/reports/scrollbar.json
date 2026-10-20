@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-20T03:53:23.912Z",
+  "scope": "页面浮动滚动条与横向作品画廊滚动条",
+  "files": [
+    {
+      "path": "src/features/site-templates/catalog/uiuxfolio/components/Shell.tsx",
+      "sha256": "51add8fdec8b2155a9a2c5dbecb64c90ae10fd3493b061fef00dcccc9023a233"
+    },
+    {
+      "path": "src/features/site-templates/catalog/uiuxfolio/theme.css",
+      "sha256": "13639693b7728778befe12b3e7cedc138648a298babd1ec2d310da3672b31c7c"
+    },
+    {
+      "path": "src/features/site-templates/catalog/uiuxfolio/tokens.css",
+      "sha256": "dc02425cf62bd95c5e1a1dcb48d4175b652afe861d97d765940874f148720d11"
+    },
+    {
+      "path": "src/features/site-templates/shared/PageScrollbar.tsx",
+      "sha256": "35f2cbba4c09b6c90b049ff5a7421b939d74f21ad20aab1e09f68c9c7d292e82"
+    }
+  ],
+  "typecheck": "passed",
+  "lint": "passed",
+  "browserCases": [
+    {
+      "origin": "http://127.0.0.1:43262",
+      "width": 1440,
+      "height": 1000,
+      "wheel": true,
+      "idleHides": true,
+      "drag": true,
+      "keyboard": true,
+      "noGutter": true,
+      "touch": false
+    },
+    {
+      "origin": "http://127.0.0.1:43262",
+      "width": 834,
+      "height": 1180,
+      "wheel": true,
+      "idleHides": true,
+      "drag": true,
+      "keyboard": true,
+      "noGutter": true,
+      "touch": false
+    },
+    {
+      "origin": "http://127.0.0.1:43262",
+      "width": 390,
+      "height": 844,
+      "wheel": true,
+      "idleHides": true,
+      "drag": true,
+      "keyboard": true,
+      "noGutter": true,
+      "touch": true
+    },
+    {
+      "origin": "http://127.0.0.1:43262",
+      "width": 320,
+      "height": 844,
+      "wheel": true,
+      "idleHides": true,
+      "drag": true,
+      "keyboard": true,
+      "noGutter": true,
+      "touch": true
+    }
+  ],
+  "englishCaseLabel": true,
+  "modalDisablesRail": true,
+  "status": "passed"
+}

@@ -1,0 +1,11 @@
+'use client';
+import { useState, type FormEvent } from 'react';
+import type { SiteTemplatePageProps } from '../../../types';
+import { Shell } from '../components/Shell';
+import { home, text } from '../content';
+export default function ContactPage({ basePath, locale = 'zh' }: SiteTemplatePageProps) {
+    const [submitted, setSubmitted] = useState(false);
+    function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); if (event.currentTarget.reportValidity())
+        setSubmitted(true); }
+    return <Shell basePath={basePath} locale={locale}><section className="ux-document"><span className="ux-hand">{text(home.contactLabel, locale)}</span><h1>{locale === 'zh' ? '聊聊你的下一个项目' : 'Let’s talk about your next project'}</h1><p>{locale === 'zh' ? '告诉我你的想法、挑战和期待，一起探索更好的设计方向。' : 'Tell me about your ideas, challenges and goals. Let’s explore a thoughtful design direction.'}</p><p>{locale === 'zh' ? '演示表单仅进行本地校验，不会发送、保存或预约。请勿填写敏感信息。' : 'This demo validates locally. It does not send, store or book anything. Please avoid sensitive information.'}</p><form className="ux-form ux-glass" onSubmit={submit} onChange={() => setSubmitted(false)}><label>{locale === 'zh' ? '你的称呼' : 'Your name'}<input name="name" required maxLength={100} autoComplete="name"/></label><label>{locale === 'zh' ? '电子邮箱' : 'Email address'}<input name="email" type="email" required autoComplete="email" maxLength={254}/></label><label>{locale === 'zh' ? '项目类型' : 'Project type'}<select name="project" required defaultValue=""><option value="" disabled>{locale === 'zh' ? '请选择' : 'Please select'}</option><option value="website">{locale === 'zh' ? '网站设计' : 'Website design'}</option><option value="app">{locale === 'zh' ? '应用体验' : 'App experience'}</option><option value="brand">{locale === 'zh' ? '品牌与设计系统' : 'Brand & design system'}</option></select></label><label>{locale === 'zh' ? '项目想法' : 'Project details'}<textarea name="message" required minLength={10} maxLength={3000}/></label><button className="ux-pill ux-primary" type="submit">{locale === 'zh' ? '检查项目资料' : 'Validate project details'} <span aria-hidden="true">→</span></button>{submitted && <p className="ux-success" role="status">{locale === 'zh' ? '本地校验通过。演示资料未发送、未保存，也未创建预约。' : 'Local validation passed. Nothing was sent or saved, and no booking was created.'}</p>}</form></section></Shell>;
+}

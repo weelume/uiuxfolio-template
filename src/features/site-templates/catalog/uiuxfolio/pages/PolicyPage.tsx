@@ -1,0 +1,10 @@
+'use client';
+import { usePathname } from 'next/navigation';
+import type { SiteTemplatePageProps } from '../../../types';
+import { Shell } from '../components/Shell';
+export default function PolicyPage({ basePath, locale = 'zh' }: SiteTemplatePageProps) {
+    const privacy = usePathname()?.endsWith('privacy-policy');
+    const title = privacy ? (locale === 'zh' ? '隐私说明' : 'Privacy notice') : (locale === 'zh' ? '演示使用说明' : 'Demonstration terms');
+    const paragraphs = privacy ? (locale === 'zh' ? ['本网站是设计师作品集演示，不提供账户、数据库或真实预约服务。', '联系表单只在当前浏览器内进行必填项和格式校验，不会发送或保存填写内容。邮箱复制需要浏览器剪贴板权限；复制失败时将显示明确提示。', '本模板本身不设置分析 Cookie，不集成第三方追踪脚本。实际运营时应由运营者根据最终接入的服务更新隐私说明。'] : ['This is a portfolio demonstration with no accounts, database or booking service.', 'The contact form checks required fields and format in your browser. It does not send or store entries. Email copying uses the browser clipboard and reports failures.', 'The template itself sets no analytics cookies and integrates no tracking scripts. An operator should update this notice to reflect services added for actual use.']) : (locale === 'zh' ? ['本网站中的人物、工作经历与评价用于模板展示，不构成真实雇佣关系、客户背书或业务承诺。', '案例界面、研究图与肖像来自参考站点，权利归原作者或相关权利人。未取得再分发许可前，仅作本地研究和效果评审。', '演示表单不会发送邮件、保存信息或创建预约。正式上线前应替换示例资料，确认素材权利并接入真实服务。'] : ['People, career entries and reviews demonstrate the template and do not imply verified employment, endorsement or business outcomes.', 'Case visuals, research images and portraits come from the reference website. Rights remain with their owners. Redistribution permission has not been established; use is limited to local study and review.', 'The demo does not send emails, store form information or create bookings. Before operating publicly, replace example content, confirm asset rights and connect actual services.']);
+    return <Shell basePath={basePath} locale={locale}><article className="ux-document"><span className="ux-hand">UIUXfolio</span><h1>{title}</h1>{paragraphs.map((paragraph, n) => <section key={paragraph}><h2>{String(n + 1).padStart(2, '0')}</h2><p>{paragraph}</p></section>)}</article></Shell>;
+}

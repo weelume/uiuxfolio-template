@@ -1,0 +1,162 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与联系方式",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌与联系方式"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "中英文内容",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/content.ts",
+          "kind": "file",
+          "purpose": "中英文内容"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "项目案例",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/data.ts",
+          "kind": "file",
+          "purpose": "项目案例"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题令牌",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/tokens.css",
+          "kind": "file",
+          "purpose": "主题令牌"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "layout",
+      "title": "布局与适配",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/theme.css",
+          "kind": "file",
+          "purpose": "布局与适配"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "routes",
+      "title": "页面注册",
+      "description": "修改对应源码并验证受影响页面。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/meta.ts",
+          "kind": "file",
+          "purpose": "页面注册"
+        }
+      ],
+      "constraints": [
+        "保持中英双语和响应式。",
+        "品牌集中配置，不添加未获授权的外部发送。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "scrollbar",
+      "title": "滚动条与触摸操作",
+      "description": "主题色与细滑块由主题令牌控制；共享组件仅同步文档滚动位置。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/components/Shell.tsx",
+          "kind": "file",
+          "purpose": "滚动交互与接入"
+        },
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/theme.css",
+          "kind": "file",
+          "purpose": "滚动条主题样式"
+        },
+        {
+          "path": "src/features/site-templates/catalog/uiuxfolio/tokens.css",
+          "kind": "file",
+          "purpose": "滚动条主题样式"
+        },
+        {
+          "path": "src/features/site-templates/shared/PageScrollbar.tsx",
+          "kind": "file",
+          "purpose": "滚动交互与接入"
+        }
+      ],
+      "constraints": [
+        "不创建嵌套页面滚动容器。",
+        "保留拖拽、键盘、触摸、减少动态效果和弹窗互斥。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    }
+  ]
+}

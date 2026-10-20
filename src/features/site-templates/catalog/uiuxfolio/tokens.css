@@ -1,0 +1,12 @@
+@import url('/templates/uiuxfolio/fonts/misans/MiSans-Regular.css');
+@import url('/templates/uiuxfolio/fonts/misans/MiSans-Bold.css');
+@font-face{font-family:'UIUXfolio Poppins';font-style:normal;font-weight:400;font-display:swap;src:url('/templates/uiuxfolio/fonts/poppins-latin-400.woff2') format('woff2')}
+@font-face{font-family:'UIUXfolio Poppins';font-style:normal;font-weight:600;font-display:swap;src:url('/templates/uiuxfolio/fonts/poppins-latin-600.woff2') format('woff2')}
+@font-face{font-family:'UIUXfolio Poppins';font-style:normal;font-weight:700;font-display:swap;src:url('/templates/uiuxfolio/fonts/poppins-latin-700.woff2') format('woff2')}
+[data-template='uiuxfolio']{
+ --ux-bg:#fff;--ux-surface:#f0f0f1;--ux-ink:#111114;--ux-muted:#66666d;--ux-accent:#d92159;--ux-accent-hover:#b81647;--ux-line:#d1d2d8;--ux-focus:#2168d9;--ux-success:#146637;--ux-error:#b51d38;
+ --ux-glass:linear-gradient(135deg,rgba(255,255,255,.88),rgba(255,255,255,.46));--ux-shadow:0 8px 28px rgba(38,35,50,.055),inset 0 1px 0 #fff;
+ --ux-font:'UIUXfolio Poppins','UIUXfolio MiSans',sans-serif;--ux-title:clamp(28px,3.1vw,44px);--ux-heading:clamp(24px,2.6vw,36px);--ux-subheading:clamp(22px,2.2vw,30px);--ux-body:clamp(16px,1.2vw,17px);
+ --ux-scroll-thumb:rgba(217,33,89,.42);--ux-scroll-active:var(--ux-accent);--ux-scroll-track:transparent;
+ --ux-radius:22px;--ux-container:1440px;--ux-gutter:clamp(20px,2.5vw,48px);--ux-section:clamp(64px,7vw,104px);--ux-nav-height:76px;--ux-review-width:310px;
+}
